@@ -12,7 +12,7 @@ public class CheckVowel {
             char c = str.charAt(i);
             if(c=='i'||c=='u'||c=='o'||c=='a'||c=='e'){
                 flag = true;
-                break;
+                break;//
             }
         }
         return flag;
